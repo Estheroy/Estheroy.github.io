@@ -160,12 +160,22 @@ a:focus {
     vertical-align: middle;
 }
 
+.introduction-text {
+    font-size: 58px;
+	text-align: center;
+	font-family: monospace;
+}
+
 .intro .intro-body .brand-heading {
     font-size: 40px;
 }
 
 .intro .intro-body .intro-text {
     font-size: 18px;
+}
+
+.nowrap {
+  white-space: nowrap ;
 }
 
 @media(min-width:768px) {
