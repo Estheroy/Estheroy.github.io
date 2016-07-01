@@ -268,7 +268,13 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.content-section-1 {
+    padding-top: 120px;
+	padding-bottom: 80px;
 }
 
 .download-section {
@@ -479,16 +485,16 @@ body {
 
 .skill-name-3{
   text-align: left;
-  padding: 12px 0px 12px 0px;
+  padding: 6px 0px 1px 0px;
   font-family: "Raleway";
-  font-size: 14px;
+  font-size: 13px;
   color: #2c3e50;
   font-weight: bolder;
 }
 
 .third-col{
   position: relative;
-  left: 7px;
+  left: 9px;
 }
 
 .first-col{
@@ -499,7 +505,7 @@ body {
 .bar-main-container-3{
   margin: 10px 12px;
   height: 38px;
-  width: 179px;
+  width: 180px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -507,7 +513,8 @@ body {
   font-weight: normal;
   font-size: 0.8em;
   color: #FFF;
-  padding-bottom: 10px;
+  position: relative;
+  left: 10px;
 }
 
 
