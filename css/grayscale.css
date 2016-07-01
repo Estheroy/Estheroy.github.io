@@ -45,7 +45,7 @@ p {
 }
 
 a {
-    color: #42dca3;
+    color: #1abc9c;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -54,7 +54,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+    color: #1abc9c;
 }
 
 .light {
@@ -274,7 +274,7 @@ a:focus {
 .download-section {
     width: 100%;
     padding: 50px 0;
-	color: #191919;
+	color: #2c3e50;
     background-color: #f3f3f3;
 	background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
@@ -357,7 +357,7 @@ ul.banner-social-buttons {
     top: 15px;
 	letter-spacing: 1px;
 	font-weight: bold;
-	color: #ecf0f1;
+	color: #f3f3f3;
 }
 
 footer p {
@@ -388,3 +388,161 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
+.greenText{
+	color: #1abc9c;
+	font-size: 22px;
+}
+
+
+.bar-main-container {
+  margin: 10px 12px;
+  height: 38px;
+  width: 179px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  font-family: "Raleway";
+  font-weight: normal;
+  font-size: 0.8em;
+  color: #FFF;
+}
+
+.wrap { padding: 8px; }
+
+.bar-percentage {
+  font-family: "Raleway";
+  float: left;
+  background: rgba(0,0,0,0.13);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 4px;
+  padding: 1px 0px;
+  width: 1%;
+  opacity: 0;
+  font-size: 17px;
+}
+
+.bar-container {
+  float: right;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  height: 9px;
+  background: rgba(0,0,0,0.13);
+  width: 99%;
+  margin: 8px 0px;
+  overflow: hidden;
+}
+
+.bar {
+  float: left;
+  background: #FFF;
+  height: 100%;
+  -webkit-border-radius: 10px 0px 0px 10px;
+  -moz-border-radius: 10px 0px 0px 10px;
+  border-radius: 10px 0px 0px 10px;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
+}
+
+
+.skill-name{
+  text-align: left;
+  padding: 14px 0px 14px 10px;
+  font-family: "Raleway";
+  font-size: 14px;
+  color: #2c3e50;
+  font-weight: bolder;
+}
+
+.long-skill{
+  position: relative;
+  right:2px;
+  padding: 8px 0px 15px 0px;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.skill-name-2{
+  text-align: left;
+  padding: 13px 0px 13px 0px;
+  font-family: "Raleway";
+  font-size: 14px;
+  color: #2c3e50;
+  font-weight: bolder;
+}
+
+
+.skill-name-3{
+  text-align: left;
+  padding: 12px 0px 12px 0px;
+  font-family: "Raleway";
+  font-size: 14px;
+  color: #2c3e50;
+  font-weight: bolder;
+}
+
+.third-col{
+  position: relative;
+  left: 7px;
+}
+
+.first-col{
+  position:relative;
+  right: 8px;	
+}
+
+.bar-main-container-3{
+  margin: 10px 12px;
+  height: 38px;
+  width: 179px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  font-family: "Raleway";
+  font-weight: normal;
+  font-size: 0.8em;
+  color: #FFF;
+  padding-bottom: 10px;
+}
+
+
+/* COLORS */
+.azure   { background: #38B1CC; }
+
+.skill-11 { background: #f1c40f; }
+.skill-12 { background: #f2c922; }
+.skill-13 { background: #f3cd34; }
+.skill-14 { background: #f4d247; }
+.skill-15 { background: #f5d659; }
+.skill-16 { background: #f6db6c; }
+.skill-17 { background: #f7df7e; }
+.skill-18 { background: #f9e491; }
+.skill-19 { background: #fae8a3; }
+.skill-110 { background: #fbedb6; }
+
+.skill-21 { background: #3bd37b; }
+.skill-22 { background: #4bd686; }
+.skill-23 { background: #5bda91; }
+.skill-24 { background: #6bde9c; }
+.skill-25 { background: #7be1a6; }
+.skill-26 { background: #8be5b1; }
+.skill-27 { background: #9be8bc; }
+.skill-28 { background: #abecc7; }
+.skill-29 { background: #bbf0d1; }
+.skill-210 { background: #cbf3dc; }
+
+.skill-31 { background: #3498db; }
+.skill-32 { background: #45a0de; }
+.skill-33 { background: #55a9e1; }
+.skill-34 { background: #66b1e4; }
+.skill-35 { background: #77bae7; }
+.skill-36 { background: #87c2ea; }
+.skill-37 { background: #98cbed; }
+.skill-38 { background: #a9d3f0; }
+.skill-39 { background: #b9dcf3; }
+.skill-310 { background: #cae4f6; }
