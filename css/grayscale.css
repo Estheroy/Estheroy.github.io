@@ -518,9 +518,18 @@ body {
   left: 10px;
 }
 
+.logo{
+  padding: 45px, 40px, 7px, 40px;
+}
+
+
+.introduction-sect{
+  padding: 40px 45px;	
+}
 
 /* COLORS */
 .azure   { background: #38B1CC; }
+.menu-col{ color: #f3f3f3; }
 
 .skill-11 { background: #f1c40f; }
 .skill-12 { background: #f2c922; }
