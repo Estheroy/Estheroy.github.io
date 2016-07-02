@@ -519,12 +519,16 @@ body {
 }
 
 .logo{
-  padding: 45px, 40px, 7px, 40px;
+  padding: 60px, 40px, 7px, 40px;
 }
 
 
 .introduction-sect{
-  padding: 40px 45px;	
+  padding: 30px 20px;	
+}
+
+.title{
+  padding-bottom: 30px;
 }
 
 /* COLORS */
