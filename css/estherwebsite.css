@@ -8,7 +8,7 @@ body {
     width: 100%;
     height: 100%;
     font-family: "Raleway", Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #2c3e50;
+    color: #434343;
     background-color: #f3f3f3;
 }
 
@@ -340,6 +340,23 @@ a:focus {
     background-color: #1abc9c;
 }
 
+.btn-tag{
+  background-color: #434343;
+  color: #fff;
+  display:inline-block;
+  font-size: 12px;
+  padding-left: 3px;
+  padding-right: 3px;
+  float:left;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  border-radius: 3px;
+}
+
+.tags{
+  padding-left: 23px;
+}
+
 ul.banner-social-buttons {
     margin-top: 0;
 }
@@ -406,6 +423,15 @@ body {
 	font-size: 22px;
 }
 
+.greenText-2{
+	color: #1abc9c;
+	font-size: 18px;
+}
+
+.skill-subtitle{
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
 
 .bar-main-container {
   margin: 10px 12px;
@@ -465,6 +491,7 @@ body {
   position: relative;
   right: 40px;
   top: 5px;
+  left: 10px;
 }
 
 .skill-name{
@@ -554,9 +581,19 @@ body {
 }
 
 .portfolio-item{
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
+.skill-button{
+	font-weight: 300;
+    color: #fff;
+    border: 5px solid #fff;
+    padding: 10px;
+    background-color: #434343;
+    box-shadow: 0 0 0 3px #434343;	
+	text-transform:capitalize;
+
+}
 
 /* COLORS */
 .azure   { background: #38B1CC; }
