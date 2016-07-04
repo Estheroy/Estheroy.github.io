@@ -273,6 +273,11 @@ a:focus {
 	padding-bottom: 4px;
 }
 
+.content-section-3 {
+    padding-top: 100px;
+	padding-bottom: 80px;
+}
+
 .content-section-1 {
     padding-top: 130px;
 	padding-bottom: 40px;
@@ -456,6 +461,11 @@ body {
   opacity: 1;
 }
 
+.navbar-icon{
+  position: relative;
+  right: 40px;
+  top: 5px;
+}
 
 .skill-name{
   text-align: left;
@@ -466,11 +476,20 @@ body {
   font-weight: bolder;
 }
 
+
 .long-skill{
   position: relative;
-  right:2px;
+  left: 8px;
   padding: 8px 0px 15px 0px;
   font-size: 14px;
+  font-weight: bolder;
+}
+
+.long-skill-2{
+  position: relative;
+  right: 2px;
+  padding: 8px 0px 15px 0px;
+  font-size: 19px;
   font-weight: bolder;
 }
 
@@ -486,7 +505,7 @@ body {
 
 .skill-name-3{
   text-align: left;
-  padding: 6px 0px 1px 0px;
+  padding: 19px 0px 11px 0px;
   font-family: "Raleway";
   font-size: 13px;
   color: #2c3e50;
@@ -515,13 +534,12 @@ body {
   font-size: 0.8em;
   color: #FFF;
   position: relative;
-  left: 10px;
+  right: 74px;
 }
 
 .logo{
   padding: 60px, 40px, 7px, 40px;
 }
-
 
 .introduction-sect{
   padding: 30px 20px;	
@@ -530,6 +548,15 @@ body {
 .title{
   padding-bottom: 30px;
 }
+
+.img-responsive{
+  padding-bottom: 15px;
+}
+
+.portfolio-item{
+  margin-bottom: 30px;
+}
+
 
 /* COLORS */
 .azure   { background: #38B1CC; }
