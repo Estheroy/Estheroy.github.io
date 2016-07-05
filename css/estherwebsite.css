@@ -854,9 +854,11 @@ body {
     font-size: 1.25rem;
   }
 }
+
 @media only screen and (min-width: 1170px) {
   .cd-timeline-content {
-    margin-left: 0;
+    margin-left: -10px;
+	margin-right: -10px;
     padding: 1.6em;
     width: 45%;
   }
@@ -872,7 +874,7 @@ body {
   .cd-timeline-content .cd-date {
     position: absolute;
     width: 100%;
-    left: 122%;
+    left: 130%;
     top: 10px;
     font-size: 16px;
     font-size: 1rem;
@@ -881,6 +883,7 @@ body {
   .cd-timeline-block:nth-child(even) .cd-timeline-content {
     float: right;
   }
+	
   .cd-timeline-block:nth-child(even) .cd-timeline-content::before {
     top: 24px;
     left: auto;
@@ -894,7 +897,7 @@ body {
   .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date {
     left: auto;
 	top: 10%;
-    right: 122%;
+    right: 130%;
     text-align: right;
   }
   .cssanimations .cd-timeline-content.is-hidden {
