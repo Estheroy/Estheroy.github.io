@@ -1188,6 +1188,17 @@ figure.effect-ming p {
 	transform: scale(2);
 }
 
+.para {
+	position: relative;
+	top: 57px;
+	color: #1abc9c;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(2);
+	transform: scale(2);
+}
+
 figure.effect-ming:hover h2 {
 	-webkit-transform: scale(0.9);
 	transform: scale(0.9);
@@ -1195,6 +1206,15 @@ figure.effect-ming:hover h2 {
 
 figure.effect-ming:hover figcaption::before,
 figure.effect-ming:hover p {
+	font-size: 18px;
+	font-weight: 1000px;
+	color: #1abc9c;
+	opacity: 1;
+	-webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1);
+}
+
+figure.effect-ming:hover para {
 	font-size: 18px;
 	font-weight: 1000px;
 	color: #1abc9c;
