@@ -4,7 +4,7 @@ Personal Website http://Estheroy.github.io
 
 I made this website from scratch during my break.
 
-Feel free to fork this and use it as a template! :)
+Feel free to use it as a template and create your own website! :) But please don't use my content/images/etc. for anything else without my permission!
 
 Last Update: Sep 20 2016
 
