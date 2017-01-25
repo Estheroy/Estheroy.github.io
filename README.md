@@ -1,6 +1,6 @@
 # Estheroy.github.io
 
-Personal Website http://Estheroy.github.io
+Personal Website http://Estheroy.github.io (Better with Large Display Setting)
 
 I made this website from scratch during my break.
 
